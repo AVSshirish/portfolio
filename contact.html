@@ -31,15 +31,24 @@
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" height="40"></a>
-  <div class="ml-auto">
-    <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+  <a class="navbar-brand" href="index.html">
+    <img src="img/logo.png" alt="Logo" style="height: 60px;">
+  </a>
 
+  <!-- Visible and styled toggler -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+    style="border: 1px solid #444; padding: 8px 10px; border-radius: 6px; background: #f2f2f2;">
+    <span class="navbar-toggler-icon" style="filter: invert(0);"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
       <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
       <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
       <li class="nav-item"><a class="nav-link" href="certifications.html">Certifications</a></li>
-      <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
     </ul>
   </div>
 </nav>
