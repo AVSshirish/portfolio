@@ -65,23 +65,55 @@
 
 <!-- Portfolio Projects -->
 <section class="container mt-5" id="portfolio">
-	<h2 class="section-title">Highlighted Projects</h2>
+  <h2 class="section-title text-center">🚀 Featured Projects</h2>
+  
+  <div class="row">
 
-	<div class="project-box">
-		<h4>⚡ Sales Forecasting with Time Series</h4>
-		<p>Used Prophet and ARIMA models to forecast monthly sales for a retail client. Improved accuracy by 18% compared to baseline.</p>
-	</div>
+    <!-- Project 1 -->
+    <div class="col-md-6 mb-4">
+      <div class="project-box p-4 shadow-sm bg-white rounded">
+        <img src="img/projects/amazon-rag.png" alt="Amazon Reviews Project" class="img-fluid mb-3 rounded">
+        <h4>MLOps RAG Pipeline for Amazon Reviews</h4>
+        <p class="text-muted"><strong>Stack:</strong> Airflow, Vertex AI, BERT, GPT-4o</p>
+        <ul class="mb-3">
+          <li>Deployed scalable ETL with BERT on GCP Vertex AI</li>
+          <li>Integrated GPT-4o-based RAG for category-level sentiment insights</li>
+        </ul>
+        <a href="https://github.com/MLOps-Group-3/Amazon-Reviews-Sentiment-Analysis" class="btn btn-sm btn-outline-primary" target="_blank">GitHub Repo</a>
+      </div>
+    </div>
 
-	<div class="project-box">
-		<h4>📊 Automated Reporting Dashboard</h4>
-		<p>Designed a Power BI dashboard integrating SQL & Python scripts to automate weekly updates across 3 business units.</p>
-	</div>
+    <!-- Project 2 -->
+    <div class="col-md-6 mb-4">
+      <div class="project-box p-4 shadow-sm bg-white rounded">
+        <img src="img/projects/wardrobe-recommender.png" alt="AI Wardrobe Recommender" class="img-fluid mb-3 rounded">
+        <h4>AI-Driven Wardrobe Recommender</h4>
+        <p class="text-muted"><strong>Stack:</strong> CLIP, GPT-4 Vision, Snowflake</p>
+        <ul class="mb-3">
+          <li>Auto-tagged 1K+ images w/ GPT-4 Vision (95% acc)</li>
+          <li>Built outfit rec engine with CLIP + Streamlit (2K+ MAUs)</li>
+        </ul>
+        <a href="https://github.com/shirish-01/Wardrobe-Stylist" class="btn btn-sm btn-outline-primary" target="_blank">GitHub Repo</a>
+      </div>
+    </div>
 
-	<div class="project-box">
-		<h4>🧠 NLP Chatbot with LangChain + OpenAI</h4>
-		<p>Built an internal support chatbot with LangChain, embedding company documents and querying via GPT.</p>
-	</div>
+    <!-- Project 3 -->
+    <div class="col-md-12 mb-4">
+      <div class="project-box p-4 shadow-sm bg-white rounded">
+        <img src="img/projects/finance-dashboard.png" alt="Finance Complaint Dashboard" class="img-fluid mb-3 rounded">
+        <h4>Financial Complaint Analysis Dashboard</h4>
+        <p class="text-muted"><strong>Stack:</strong> Tableau, Pandas</p>
+        <ul class="mb-3">
+          <li>Built dashboards on 2.9M+ records, improving service strategy</li>
+          <li>Delivered actionable insights w/ Pandas + 10+ Tableau visuals</li>
+        </ul>
+        <a href="https://public.tableau.com/app/profile/venkata.subbarao.shirish.addaganti/viz/FinancialProductandServiceComplaintAnalysis_17401699451820/COMPLAINTANALYSISDASHBOARD" class="btn btn-sm btn-outline-success" target="_blank">View Dashboard</a>
+      </div>
+    </div>
+
+  </div>
 </section>
+
 
 <!-- Footer -->
 <footer class="text-center py-4 mt-5" style="background:#fff; border-top:1px solid #eee;">
