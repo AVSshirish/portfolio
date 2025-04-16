@@ -61,17 +61,82 @@
 </section>
 
 <!-- Skills / Tech Stack -->
+<!-- Skills / Tech Stack -->
 <section class="container mt-5 text-center">
-	<h2 class="section-title">Technologies I Work With</h2>
-	<div class="d-flex flex-wrap justify-content-center tech-icons">
-		<img src="img/brands/python.jpeg" alt="Python">
-		<img src="img/brands/sql.png" alt="SQL">
-		<img src="img/brands/tableau.jpg" alt="Tableau">
-		<img src="img/brands/powerbi.png" alt="Power BI">
-		<img src="img/brands/aws.png" alt="AWS">
-		<img src="img/brands/GCP.png" alt="GCP">
-		<img src="img/brands/snowflake.png" alt="Snowflake">
-	</div>
+  <h2 class="section-title">🛠️ Technologies I Work With</h2>
+  <div class="d-flex flex-wrap justify-content-center gap-3">
+
+    <div class="tech-box m-2" title="Python">
+      <img src="img/brands/python.jpeg" alt="Python">
+      <p>Python</p>
+    </div>
+
+    <div class="tech-box m-2" title="SQL">
+      <img src="img/brands/sql.png" alt="SQL">
+      <p>SQL</p>
+    </div>
+
+    <div class="tech-box m-2" title="Tableau">
+      <img src="img/brands/tableau.jpg" alt="Tableau">
+      <p>Tableau</p>
+    </div>
+
+    <div class="tech-box m-2" title="Power BI">
+      <img src="img/brands/powerbi.png" alt="Power BI">
+      <p>Power BI</p>
+    </div>
+
+    <div class="tech-box m-2" title="AWS">
+      <img src="img/brands/aws.png" alt="AWS">
+      <p>AWS</p>
+    </div>
+
+    <div class="tech-box m-2" title="GCP">
+      <img src="img/brands/GCP.png" alt="GCP">
+      <p>GCP</p>
+    </div>
+
+    <div class="tech-box m-2" title="Snowflake">
+      <img src="img/brands/snowflake.png" alt="Snowflake">
+      <p>Snowflake</p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .tech-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 15px 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 110px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tech-box img {
+    max-height: 50px;
+    margin-bottom: 8px;
+    transition: transform 0.2s ease;
+  }
+
+  .tech-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  }
+
+  .tech-box p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 500;
+  }
+</style>
 
 <!-- Footer -->
 <footer class="text-center py-4 mt-5" style="background:#fff; border-top:1px solid #eee;">
